@@ -19,7 +19,8 @@ state, not the history of how it was corrected.
 ## Apply
 
 1. Rewrite only the affected text as if the latest accepted requirement had been
-   known from the beginning.
+   known from the beginning. When later feedback conflicts with earlier draft
+   content, treat the later feedback as authoritative.
 2. Remove superseded assumptions, rejected alternatives, obsolete negations,
    and explanations whose only purpose is to justify a correction.
 3. Keep correction history only when the history itself is relevant to the
