@@ -26,14 +26,6 @@ It removes:
 - unnecessary defensive disclaimers
 - answering objections nobody raised
 
-It does not handle:
-
-- general AI humanization
-- implementation scope creep
-- general overengineering
-- stylistic rewriting
-- multi-pass critique
-
 ## Install
 
 ```bash
