@@ -25,7 +25,10 @@ state, not the history of how it was corrected.
 3. Keep correction history only when the history itself is relevant to the
    requested artifact.
 4. Preserve the intended facts, meaning, tone, and useful detail.
-5. Stop once the text cleanly represents the current accepted state.
+5. Keep a negative condition when the latest accepted requirement makes the
+   absence itself material, such as an allergy, compliance, or compatibility
+   constraint.
+6. Stop once the text cleanly represents the current accepted state.
 
 ## Avoid
 
