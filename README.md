@@ -30,7 +30,7 @@ It removes:
 
 ```bash
 mkdir -p ~/.agents/skills
-git clone https://github.com/<OWNER>/final-state-writing \\
+git clone https://github.com/intelland/final-state-writing \\
   ~/.agents/skills/final-state-writing
 ```
 
