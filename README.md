@@ -4,7 +4,7 @@ English | [简体中文](README.zh-CN.md)
 
 > **Write the end state, not the edit history.**
 
-A widely shared Chinese-language example captures the problem as **“Tomato and Eggs (without Dongpo Pork)”**.[^1]
+A Chinese-language public example captures the problem as **“Tomato and Eggs (without Dongpo Pork)”**.[^1]
 
 The unwanted material is gone, but the history of correcting it still survives in the final text. In this project, we call that **correction residue**: text that remains only because an earlier draft was wrong.
 
@@ -27,8 +27,6 @@ Typical traces include rejected alternatives that linger, obsolete negations, co
 This is not a rule to delete every negative sentence. An absence can be useful final-state information. For example, in a deployment note, “The demo requires no external infrastructure” may be a useful operational property. The question is whether a sentence would still be useful if the final requirement had been known from the beginning. If so, it may belong in the final text.
 
 ## Before and after
-
-The public example above is cited separately. The examples below are product examples for this Skill.
 
 ```text
 Draft:
@@ -75,7 +73,7 @@ On a fixed correction-heavy challenge set using GPT-5.6-terra:
 A targeted release-regression gate achieved:
 
 - task correctness: 12/12
-- true correction-residue failures: 0/12
+- correction-residue failures under the final semantic criterion: 0/12
 
 This was a deliberately difficult development benchmark designed around this failure mode. It is not a general error-rate estimate for all Codex or LLM writing tasks.
 
