@@ -22,7 +22,8 @@ state, not the history of how it was corrected.
    known from the beginning. When later feedback conflicts with earlier draft
    content, treat the later feedback as authoritative.
 2. Remove superseded assumptions, rejected alternatives, obsolete negations,
-   and explanations whose only purpose is to justify a correction.
+   and explanations whose only purpose is to justify a correction. When a removed requirement has no remaining role in the accepted state,
+   omit it rather than restating its absence.
 3. Keep correction history only when the history itself is relevant to the
    requested artifact.
 4. Preserve the intended facts, meaning, tone, and useful detail.
